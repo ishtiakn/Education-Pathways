@@ -1,0 +1,56 @@
+.left_container{
+    border: 2px solid gray;
+    width: 46%;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 2%;
+    border-radius: 15px;
+    
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 40px;
+
+}
+.right_container{
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 46%;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 2%;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 40px;
+
+}
+
+
+.close{
+    border-radius: 30%;
+    float: right;
+    display: block;
+}
+
+.compare_line{
+    margin: 20px;
+    height: 40px;
+}
+.compare_Code{
+    margin: 20px;
+    height: 40px;
+    font-size: larger;
+}
+
+.description{
+    margin: 20px;
+    font-size:small;
+    min-height: 200px
+}
+
+.search_container{
+    margin: 50px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 100%;
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 3px !important;
+  color: #1C3E6E;
+}
+
+p {
+  color: #8198B8;
+}
+
+.page-content {
+  background-color: #F2F4F8;
+}
+
+.course-template {
+  padding-bottom: 3%;
+}
+
+.course-template .course-title {
+  padding-top: 5%;;
+  padding-bottom: 3%;
+}
+
+.course-title h1{
+  text-align: left;
+}
+
+.col-item {
+  background-color: white;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+
+.course-template .syllabus {
+  vertical-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.course-template .col-item h3 {
+  margin-top: 30px;
+  margin-left: 4%;
+}
+
+.course-template .col-item h4 {
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.course-template .col-item p {
+  margin-top: 20px;
+  width: 90%;;
+  margin-left: 4%;
+  margin-bottom: 3%;
+  color: #5C779C;
+}
+
+.course-template .course-description, .course-requisite {
+  margin-left: 0;
+}
+
+.requisites-display {
+  height: 120px;
+  margin-top: 2%;
+  background-color: #EFF3FB;
+  margin-left: 3%;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 4%;
+}
+
+.expand_button {
+  margin-top: -5%;
+}
+
+.syllabus-link {
+  margin-top: 2%;
+  border-radius: 15px;
+  background-color: #1C3E6E;
+  color: white;
+  width: 8em;
+  height: 3em;
+  border: none;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.add-course-to-timetable-link {
+  border-radius: 15px;
+  background-color: #1C3E6E;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-field-label {
+  display: inline-block;
+  width: 1000px;
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+.form-field-label-underlined {
+  display: inline-block;
+  width: 1000px;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.form-field {
+  margin-bottom: 2%;
+}
+
+#description {
+  width: 70%;
+  height: 5%;
+}
+
+#form-back-button {
+  margin-right: 88%;
+}
+
+.edit-button {
+  width: 3%;
+  margin-left: 2%;
+  border-radius: 20%;
+}
+
+.edit-button:hover {
+  background-color: rgb(245, 245, 250);
+  transform: scale(1.02);
+}
+
+.req-graph {
+  border: none;
+  width: 60%;
+  margin-left: 5%;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.col-ratings{
+  margin-top: 10px;
+  margin-left: 47%;
+  margin-bottom: 10px;
+}
+
+.col-name-course-rating{
+  margin-top: 3px;
+  margin-left: 50%;
+}
+
+.rate-button {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #1C3E6E;
+  color: white;
+  width: 7em !important;
+  height: 2em;
+  border: none;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 49%;
+}
+
+.select-wrapper{
+  border-radius:36px;
+  display:inline-block;
+  overflow:hidden;
+  background: white;
+  border:1px solid #cccccc;
+  padding: 10px;
+}
+.select-box{
+  width:140px;
+  height:40px;
+  border:0px;
+  outline:none;
+  padding: 10px;
+}
+
+.section-divider{
+  width: 40.75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin: 0.5em;
+  overflow: hidden;
+  border-style:inset;
+  color: #1C3E6E;
+  border-color: #1C3E6E;
+  border-width: 2px;
+}
